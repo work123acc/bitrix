@@ -1,0 +1,839 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1600px) {
+	.findNumber form .form_group label, 
+	.findNumber form .quantity_group span.label_span {
+		font-size: 18px;
+	}
+	.findNumber form .form_group label {
+		margin-bottom: 10px;
+	}
+	.findNumber form .form_group input {
+		font-size: 19px;
+		max-width: 300px;
+		padding: 10px 12px;
+	}
+	.findNumber form .quantity_group .blockLabel {
+    width: 120px;
+	}
+	.findNumber form .quantity_group {
+    padding: 14px 0;
+	}
+	.findNumber form .promocodForm input {
+		font-size: 18px;
+	}
+	body.index .headerSection  .slick-dots {
+		padding-right: 22%;
+	}
+	body.index .headerSection .slick-next {
+		right: 22%;
+	}
+	.findNumber:after {
+    content: '';
+    position: absolute;
+		left: -20px;
+    right: -17px;
+    top: -32px;
+    bottom: -25px;
+    background-size: 100%;
+    background-image: url(../img/border.png);
+	}
+}
+@media only screen and (max-width : 1799px) and (min-width : 1599px) {
+	body.index .headerSection .slick-next {
+		right: 26%;
+	}
+	body.index .headerSection .slick-dots {
+    padding-right: 26%;
+	}
+	.findNumber form {
+		padding: 25px 40px 40px;
+	}
+	.findNumber form .quantity_group {
+    padding: 9px 0;
+	}
+	.findNumber form  .betweenBtn {
+		width: 51px;
+	}
+	.findNumber form .promocodForm {
+		padding-bottom: 30px;
+	}
+	.findNumber form .form_group label {
+    margin-bottom: 5px;
+	}
+	.findNumber form .form_group {
+    margin-bottom: 15px;
+	}
+
+
+}
+
+@media only screen and (max-width : 1599px) {
+	.findNumber form .blockBtn button {
+		font-size: 20px;
+	}
+	.findNumber form .promocodForm {
+    padding-top: 15px;
+    padding-bottom: 30px;
+	}
+	.findNumber form .promocodForm input {
+    padding: 10px 12px;
+	}
+	.findNumber form .quantity_group {
+		padding: 10px 0;
+	}
+	.findNumber form .form_group input {
+    font-size: 15px;
+    padding: 6px 12px;
+	}
+	.findNumber form .form_group label {
+		font-size: 14px;
+		margin-bottom: 3px;
+	}
+	.findNumber form .quantity_group button{
+		width: 35px;
+		height: 35px;
+	}
+	.findNumber form {
+	  padding: 20px 34px 35px;
+	}
+	.findNumber form .blockBtn img {
+		width: 65px;
+	}
+	.findNumber form .blockBtn .img_Top{
+		top: -21px;
+	}
+	.findNumber form .blockBtn .img_Button {
+		bottom: -28px;
+	}
+	.findNumber form .form_group {
+		margin-bottom: 10px;
+	}
+	.findNumber:after {
+    content: '';
+    position: absolute;
+		 left: -15px;
+    right: -12px;
+    top: -24px;
+    bottom: -25px;
+    background-size: 100%;
+    background-image: url(../img/border.png);
+	}
+	.findNumber form .quantity_group span.label_span {
+		font-size: 13px;
+	}
+	.findNumber form .quantity_group .blockLabel {
+    width: 85px;
+	}
+	.findNumber form  .betweenBtn {
+		width: 53px;
+	}
+	body.index .headerSection .slick-next {
+    right: 390px;
+	}
+
+}
+
+@media only screen and (max-width : 1200px) {
+	.container {
+		width: 100%;
+	}
+	.findNumber form .blockBtn {
+		padding: 7px 0;
+	}
+	.findNumber form .blockBtn button {
+    font-size: 15px;
+	}
+	.findNumber form .promocodForm input {
+    padding: 6px 12px;
+    font-size: 12px;
+	}
+	.findNumber form .quantity_group {
+    padding: 7px 0;
+	}
+	.findNumber form .form_group {
+    margin-bottom: 7px;
+	}
+	.findNumber form .form_group label {
+    font-size: 12px;
+    margin-bottom: 2px;
+	}
+	.findNumber form .form_group input {
+    font-size: 13px;
+    padding: 5px 12px;
+		background-size: 23px;
+	}
+	.findNumber form .quantity_group button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+	}
+	.findNumber form {
+		padding: 20px 20px 37px;
+		border-radius: 14px;
+	}
+	.findNumber form .quantity_group span.label_span {
+    font-size: 12px;
+	}
+	.findNumber form .quantity_group .blockLabel {
+    width: 80px;
+	}
+	.findNumber .child-item img,
+	.findNumber .adult-item img {
+		width: 100%;
+	}
+	.findNumber .child-item,
+	.findNumber .adult-item {
+		width: 14px;
+	}
+	.findNumber form .promocodForm {
+    padding-top: 10px;
+    padding-bottom: 20px;
+	}
+	.findNumber form .betweenBtn {
+    width: 40px;
+	}
+	.findNumber:after {
+    left: -11px;
+    right: -9px;
+    top: -18px;
+	}
+	body.index .headerSection  .slick-dots {
+		padding-right: 26%;
+	}
+	body.index .headerSection .slick-next {
+		right: 26%;
+	}
+	.menuHeader ul li {
+		font-size: 17px;
+	}
+	.block_News .item-news:last-child a {
+    padding-top: 25%;
+	}
+	.block_News .item-news a {
+		font-size: 30px;
+	}
+	p.titleSection {
+		font-size: 40px;
+	}
+	.sectionServices .services-item .block-services .overlayTitle a {
+		font-size: 16px;
+	}
+	.socSection .socBtn {
+		margin-left: 45px;
+	}
+	.socSection .titleSoc {
+		font-size: 30px;
+	}
+	.socSection .socBtn a img {
+		width: 40px;
+	}
+	.socSection .socBtn a {
+    margin-right: 10px;
+	}
+	footer.mainFooter .logoFooter {
+    margin-right: 4%;
+    width: 7%;
+	}
+	footer.mainFooter .menuFooter li a {
+		font-size: 14px;
+	}
+	footer.mainFooter .contactsFooter > div {
+		font-size: 20px;
+	}
+	footer.mainFooter .contactsFooter .copyright {
+    font-size: 14px;
+    margin-top: 5px;
+	}
+	footer.mainFooter .menuFooter li {
+    margin-right: 4.5%;
+	}
+	.headerMain .navbarTop .logoHeader {
+		padding-left: 65px;
+	}
+}
+
+@media only screen and (max-width : 1025px) {
+	.findNumber form .quantity_group button {
+	    width: 25px;
+	    height: 25px;
+	    font-size: 12px;
+	}
+	.findNumber form {
+    padding: 15px 19px 32px;
+    border-radius: 15px;
+	}
+	.findNumber form .promocodForm input {
+    padding: 5px 12px;
+	}
+	.findNumber:after {
+    top: -17px;
+	}
+	.bronItem {
+    height: 355px;
+    width: 32%;
+	}
+	.wrapBronList {
+    padding-top: 50px;
+	}
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body.index .headerSection  .slick-dots {
+		padding-right: 29%;
+	}
+	body.index .headerSection .slick-next {
+		right: 29%;
+	}
+	.headerMain .navbarTop .locationHeader {
+    width: 230px;
+    min-width: 230px;
+	}
+	.headerMain .navbarTop .contactHeader {
+    width: 220px;
+    min-width: 220px;
+	}
+	.headerMain .navbarTop .logoHeader {
+    padding-left: 25px;
+	}
+	.headerMain .navbarTop .logoHeader p {
+		font-size: 40px;
+	}
+	.headerMain .navbarTop .logoHeader span {
+		font-size: 20px;
+	}
+	.findNumber form .quantity_group {
+    padding: 5px 0;
+	}
+	.findNumber form .betweenBtn {
+    width: 35px;
+	}
+	.findNumber .child-item, .findNumber .adult-item {
+    width: 12px;
+	}
+	.findNumber form .blockBtn img {
+    width: 45px;
+	}
+	.findNumber form .blockBtn .img_Top {
+    top: -15px;
+	}
+	.findNumber form .blockBtn .img_Button {
+    bottom: -20px;
+	}
+	.findNumber form .blockBtn {
+    padding: 5px 0;
+	}
+	.findNumber form .promocodForm {
+    padding-top: 7px;
+    padding-bottom: 17px;
+	}
+	.findNumber form {
+    padding: 15px 14px 32px;
+    border-radius: 11px;
+	}
+	.findNumber form .quantity_group:after,
+	.findNumber form .promocodForm:after,
+	.findNumber form .blockBtn:after {
+    width: 100%;
+    left: 0%;
+    height: 1px;
+	}
+	.findNumber:after {
+    left: -10px;
+    right: -9px;
+	}	
+	.findNumber form .quantity_group.adultNumbers .blockLabel span#numberAdultValue,
+	.findNumber form .quantity_group.childNumbers .blockLabel span#numberChildValue {
+    font-size: 14px;
+    margin-bottom: 2px;
+	}
+	.bronItem {
+    height: 335px;
+    width: 31.5%;
+	}
+	.bronItem .titleBron {
+		font-size: 16px;
+	}
+	.bronItem .descriptionBron p {
+		padding-right: 0;
+	}
+	.bronItem .orderBron a.sendBtn {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width : 800px) {
+	.headerMain .navbarTop .locationHeader {
+	    width: 195px;
+	    min-width: 195px;
+	}
+	.headerMain .navbarTop .contactHeader {
+    width: 180px;
+    min-width: 180px;
+	}
+	.headerMain .navbarTop .locationHeader a {
+		font-size: 12px;
+	}
+	.headerMain .navbarTop .contactHeader p {
+		font-size: 16px;
+	}
+	.headerMain .navbarTop .logoHeader > div a img {
+		width: 65px;
+	}
+	.findNumber form .form_group label {
+    font-size: 10px;
+    margin-bottom: 1px;
+	}
+	.findNumber form .form_group input {
+    font-size: 12px;
+    padding: 4px 12px;
+	}
+	.findNumber form .quantity_group {
+    padding: 4px 0;
+	}
+	.findNumber form .blockBtn img {
+    width: 65px;
+    display: none;
+	}
+	.findNumber form .promocodForm {
+    padding-top: 5px;
+    padding-bottom: 5px;
+	}
+	.findNumber form .blockBtn button {
+    font-size: 12px;
+	}
+	.findNumber form {
+    padding: 20px 10px 20px;
+	}
+
+	.findNumber:after {
+		display: none;
+	}
+	.block_News .item-news:last-child a {
+    padding-top: 18%;
+	}
+	.block_News .item-news a {
+    font-size: 25px;
+	}
+	p.titleSection {
+    font-size: 28px;
+	}
+	.sectionServices .services-item .block-services .overlayTitle a {
+    font-size: 12px;
+	}
+	.socSection .socBtn {
+    margin-left: 0;
+	}
+	footer.mainFooter .menuFooter li a {
+    font-size: 11px;
+	}
+	footer.mainFooter .contactsFooter > div {
+    font-size: 14px;
+	}
+	footer.mainFooter .contactsFooter .copyright {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 0;
+	}
+	footer.mainFooter {
+    padding: 30px 0 45px;
+	}
+	.headerMain .navbarTop .logoHeader span {
+    font-size: 13px;
+	}
+	.headerMain .navbarTop .logoHeader p {
+    font-size: 32px;
+	}
+	.headerMain .navbarTop .logoHeader > div a img {
+    width: 60px;
+	}
+	.menuHeader ul li {
+    font-size: 15px;
+	}
+	body.index .headerSection .slick-dots {
+    padding-right: 32%;
+	}
+	body.index .headerSection .slick-next {
+		right: 32%;
+	}
+	.bronItem .orderBron {
+		text-align: center;
+	}
+	.bronItem .orderBron a.sendBtn {
+		float: none;
+	}
+	.bronItem .orderBron a {
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.bronItem .descriptionBron p {
+		font-size: 13px;
+	}
+	.bronItem .titleBron {
+    font-size: 12px;
+	}
+	.bronItem {
+    height: 320px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.findNumber form .form_group input {
+    font-size: 10px;
+    padding: 4px 12px;
+    background-size: 18px;
+	}
+	.findNumber form .blockBtn button {
+    font-size: 10px;
+	}
+	.findNumber form .promocodForm input {
+    padding: 5px 12px;
+    font-size: 10px;
+	}
+	.findNumber form {
+    padding: 15px 10px 15px;
+	}
+
+	.mobRoomTypes {
+		display: block;
+	}
+
+	aside.left, aside.right {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width : 601px) {
+
+	.headerMain .navbarTop .locationHeader,
+	.headerMain .navbarTop .logoHeader span,
+	.headerMain .navbarTop .contactHeader {
+		display: none;
+	}
+	.headerMain .navbarTop .logoHeader span.mobileContcat {
+		display: block;
+	}
+	.headerMain .navbarTop .logoHeader {
+		padding-left: 0;
+	}
+	.headerMain .navbarTop .logoHeader span.mobileContcat {
+    display: block;
+    font-size: 22px;
+    padding-left: 0;
+    text-align: center;
+	}
+	.menuHeader {
+		display: block;
+		position: fixed;
+		left: -100%;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: #b7a17b;
+		z-index: 100000;
+		-webkit-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		width: 100%;
+	}
+	.menuHeader.activeMenu {
+		left: 0;
+	}
+	body.index .headerSection .slick-next {
+    right: 0;
+	}
+	body.index .headerSection .slick-dots {
+		display: none !important;
+	}
+	.findNumber {
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.findNumber form {
+		background-image: none;
+		border: none;
+		padding: 0 15px;
+	}
+	.findNumber form .form_group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+	}
+	.findNumber form .form_group input {
+    font-size: 15px;
+    padding: 7px 12px;		
+    background-color: #fff;
+		border: 1px solid #b8a995;
+		max-width: 100%;
+		background-position: 95% 4px;
+		background-size: 25px;
+	}	
+	.findNumber form .form_group {
+		max-width: 49%;
+	}
+	.menuHeader ul {
+		margin-top: 30%;
+	}
+	.menuHeader ul li {
+		display: block;
+		font-size: 20px;
+		margin: 15px 0;
+	}
+	.menuHeader ul li:first-child {
+		text-align: center;
+	}
+	.findNumber form .quantity_group button {
+		border-radius: 8px;
+	}
+	.findNumber form .quantity_group.nigthNumber span.label_span {
+		display: none;
+	}
+
+	.findNumber form .quantity_group:after, 
+	.findNumber form .promocodForm:after, 
+	.findNumber form .blockBtn:after {
+		display: none;
+	}
+	.findNumber form .quantity_group button.plusForm {
+		background-color: #7c6e5b;
+		color: #fff;
+		border: none;
+	}
+	.mobileNight {
+		display: inline-block;
+		margin-left: 3px;
+	}
+	.findNumber form .betweenBtn {
+    width: 60px;
+	}
+	.findNumber form .quantity_group.nigthNumber {
+		position: absolute;
+    right: 15px;
+    top: 30%;
+    left: 50.5%;
+	}
+	.findNumber form .quantity_group {
+    display: inline-block;
+    width: 49.5%;
+	}
+	.findNumber form .quantity_group > div {
+    display: block;
+    vertical-align: super;
+    margin: 5px 0;
+	}
+
+	.promoMobileP {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.findNumber form .promocodForm input {
+    padding: 9px 12px;
+    font-size: 14px;
+	}
+	.findNumber form .promocodForm {
+    display: inline-block;
+    width: 48%;
+	}
+	.findNumber form .blockBtn {
+		display: inline-block;
+		width: 49%;
+	}
+	.findNumber form .blockBtn button {
+    font-size: 13px;
+    background-color: #7c6e5b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+	}
+	.toggle_mnu {
+		display: block;
+	}
+	.findNumber form .promocodForm input::-webkit-input-placeholder {color:transparent;}
+	.findNumber form .promocodForm input::-moz-placeholder          {color:transparent;}/* Firefox 19+ */
+	.findNumber form .promocodForm input:-moz-placeholder           {color:transparent;}/* Firefox 18- */
+	.findNumber form .promocodForm input:-ms-input-placeholder      {color:transparent;}
+
+	.mobileBlockShare {
+		display: block;
+		background-color: #b8a995;
+		padding: 25px 0;
+	}
+
+	.mobCategory {
+		display: block;
+	}
+
+	.sectionNews,
+	.sectionServices,
+	.socSection,
+	.mainFooter {
+		display: none;
+	}
+
+	.mobFooter {
+		display: block;
+	}
+
+	.howGetTo {
+		display: block;
+	}
+	.headerMain {
+		background-color: transparent;
+	}
+	.findNumber form .quantity_group.adultNumbers .blockLabel span#numberAdultValue,
+	.findNumber form .quantity_group.childNumbers .blockLabel span#numberChildValue {
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+	}
+	.bronItem {
+    height: 335px;
+    width: 47.5%;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.findNumber form .quantity_group .blockLabel {
+    margin: auto;
+	}
+	.findNumber form .form_group input {
+    padding: 6px 12px;
+	}
+	.bronItem {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+	}
+	.bronItem .titleBron {
+    font-size: 16px;
+	}
+	.bronItem .descriptionBron p {
+    padding-right: 30px;
+	}
+	.bronItem .orderBron a {
+    display: block;
+    margin: 10px auto;
+	}
+	.bronItem .orderBron a.sendBtn{
+		max-width: 200px;
+		margin-right: auto;
+	}
+	.bronItem .orderBron a.location {
+		display: inline-block;
+	}
+	    
+	.wrapBronList {
+		padding-top: 0;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 420px) {
+
+	.findNumber form .quantity_group.nigthNumber {
+			text-align: left;
+	    top: 31%;
+	    left: 52.5%;
+	}
+	.findNumber form .form_group input {
+    padding: 5px 12px;
+    background-size: 22px;
+	}
+	.findNumber form .quantity_group {
+    display: inline-block;
+    width: 48.5%;
+
+	}
+	.findNumber form .quantity_group.childNumbers {
+		padding-left: 10px;
+	}
+
+}
+
+@media only screen and (max-width : 380px) {
+	.mobCategory .itemCategory .textCat a {
+		font-size: 18px;
+	}
+	.mobCategory .itemCategory .textCat a span {
+		font-size: 14px;
+	}
+	.mobileBlockShare .mobItem a {
+		font-size: 15px;
+	}
+	.headerMain .navbarTop .logoHeader p {
+    font-size: 28px;
+	}
+}
+@media only screen and (max-width : 340px) {
+	.mobileBlockShare .mobItem {
+		padding: 15px 20px;
+	}
+	.headerMain .navbarTop .logoHeader .textLogo {
+    margin-left: 15px;
+	}
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

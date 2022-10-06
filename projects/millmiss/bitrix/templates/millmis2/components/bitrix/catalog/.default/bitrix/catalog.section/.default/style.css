@@ -1,0 +1,27 @@
+.wrap_img{
+    height: 186px;
+    line-height: 166px;
+    overflow: hidden;
+}
+.line_between{
+    border-bottom: 1px solid #3973a5;
+}
+.select_list .arr:after{
+    content: "+";
+}
+.selected_filters .select_list li{
+    position: relative;
+}
+.arr{
+    top: 0;
+    right: -12px;
+    width: 45px;
+    height: auto;
+    position: absolute;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+}

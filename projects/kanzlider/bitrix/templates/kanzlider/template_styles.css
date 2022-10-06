@@ -1,0 +1,16 @@
+.sale-order-list-about-link{
+    display: none;
+    
+}
+.sale-order-list-repeat-link{
+    display: none;
+}
+.sale-order-list-cancel-link{
+    display: none;
+}
+.api-mainfeedback {
+    margin-right: 30px;
+}
+.card__product-logo span{
+    font: 700 2rem/1 Bebas, sans-serif;
+}

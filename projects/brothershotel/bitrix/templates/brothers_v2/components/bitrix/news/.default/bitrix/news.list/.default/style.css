@@ -1,0 +1,12 @@
+.roomTypes h3 > a {
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    color: #b7a17b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.roomTypes h3 > a:hover{
+color:#7c6e5b;
+text-decoration: underline;
+}

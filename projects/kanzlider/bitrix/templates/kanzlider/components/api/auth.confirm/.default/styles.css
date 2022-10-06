@@ -1,0 +1,99 @@
+.api_register *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.api_register .api_link{
+	color: #07d;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	border-bottom: 1px dotted;
+	margin: 0 3px;
+}
+.api_register .api_link:hover{color: #f00;}
+
+
+
+/* soc */
+.api_soc_form_title{
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+	margin-top: 20px;
+}
+.bx-auth-serv-icons{ text-align: center}
+.bx-auth-serv-icons a{
+	margin: 10px 7px 0;
+	display: inline-block;
+	position: relative;
+	border: none;
+}
+.bx-auth-serv-icons .bx-ss-icon{
+	border-radius: 34px;
+	display: block;
+	width: 34px;
+	height: 34px;
+	/*border: 0 none !important;*/
+}
+.bx-auth-serv-icons .bx-ss-icon:after{
+	content: "";
+	background: url("images/social.svg") no-repeat 0 0;
+	display: block;
+	width: 34px;
+	height: 34px;
+	border: 0;
+}
+.bx-auth-serv-icons .vkontakte {
+	background: #77a5ce;
+	border: 1px solid #3d5e7a;
+	background-image: linear-gradient(#77a5ce 0,#547fa3 100%);
+}
+.bx-auth-serv-icons .vkontakte:after{
+	background-position: 50% -154px;
+}
+
+.bx-auth-serv-icons .odnoklassniki {
+	background: #ffa453;
+	border: 1px solid #df6c20;
+	background-image: linear-gradient(#ffa453 0,#f97a26 100%);
+}
+.bx-auth-serv-icons .odnoklassniki:after {
+	background-position: 50% -254px;
+}
+
+
+.bx-auth-serv-icons .facebook {
+	background: #4772bb;
+	border: 1px solid #0c326c;
+	background-image: linear-gradient(#4772bb 0,#355a98 100%);
+}
+.bx-auth-serv-icons .facebook:after {
+	background-position: 50% -204px;
+}
+
+
+.bx-auth-serv-icons .yandex {
+	background: #fe3945;
+	border: 1px solid #b81722;
+	background-image: linear-gradient(#fe3945 0,#e32632 100%);
+}
+.bx-auth-serv-icons .yandex:after {
+	background-position: -4px -4px;
+}
+
+
+.bx-auth-serv-icons .openid-mail-ru {
+	background: #55a9f6;
+	border: 1px solid #2071b6;
+	background-image: linear-gradient(#55a9f6 0,#2e8edf 100%);
+}
+.bx-auth-serv-icons .openid-mail-ru:after {
+	background-position: 50% -104px;
+}
+
+
+.bx-auth-serv-icons .google-plus {
+	background: #ff776a;
+	border: 1px solid #c1382d;
+	background-image: linear-gradient(#ff776a 0,#ea4e41 100%);
+}
+.bx-auth-serv-icons .google-plus:after {
+	background-position: 50% -53px;
+}

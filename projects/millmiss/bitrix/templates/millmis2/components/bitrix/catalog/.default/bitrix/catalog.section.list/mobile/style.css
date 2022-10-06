@@ -1,0 +1,25 @@
+.selected_filters .select_list li a{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.back:after{
+    content: "<";
+    color: #3973A5;
+}
+.btn_selected_filters .back{
+   top: 0;
+    left: 0;
+    width: 25px;
+    height: auto;
+    position: absolute;
+    vertical-align: middle;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+}
+.btn_selected_filters{
+    position: relative;
+    padding-left: 30px;
+}

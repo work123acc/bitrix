@@ -1,0 +1,19 @@
+
+.title_cart h1{
+    font-weight: 300;
+    color: #3973a5;
+}
+#subscribe_ajax{
+  font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+#ajax_text_price{
+  font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}

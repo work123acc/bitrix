@@ -1,0 +1,17 @@
+.modal-content {
+	background-color: rgb(255, 217, 0) !important;
+}
+.modal-content .modal-header {
+	color: #d62b0d;
+}
+.modal-content .close {
+	position: absolute;
+	right: -14px;
+	width: 27px;
+	height: 27px;
+	background: #d62b0d;
+	border-radius: 50%;
+	top: -14px;
+	font-size: 28px;
+	font-weight: bold;
+}

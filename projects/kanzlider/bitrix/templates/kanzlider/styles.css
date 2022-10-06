@@ -1,0 +1,186 @@
+/*-------------------------------- ���������� ������ ----------------------------*/
+
+#order-div .step {
+    display: inline-block;
+    color: #f94029;
+    text-transform: uppercase;
+    width: 31%;
+    text-align: center;
+	font: 300 1.2rem/1.375rem Proxima Nova, sans-serif;
+	padding: 20px 0px;
+	border: 1px solid #eee;
+	margin: 0px 5px;
+}
+.basket-sum {
+    display: inline;
+    float: right;
+    top: -30px;
+    position: relative;
+	color: #999;
+	text-transform: uppercase;
+	font: 300 0.875rem/1 Fregat, sans-serif;
+}
+.basket-logo {
+	background: url(./img/cart-ico.png) 50% 100% no-repeat !important;
+}
+#order-div input {
+	font: 300 1.2rem/1 Proxima Nova, sans-serif;
+	height: 30px;
+}
+#order-div .active-step {
+	border: 2px solid #ffd900;
+}
+#order-div .order-steps {
+	padding: 20px 0px;
+}
+#order-div .href-change {
+    color: #f94029;
+    font-size: 13px;
+}
+#order-div .form-delivery, #order-div .form-pays, #order-div .block-goods {
+	background-color: #eee;
+	margin: 30px 0px;
+	padding: 10px 0px;
+}
+#order-div .block-goods {
+	padding: 20px;
+}
+#order-div .devs {
+    display: inline-block;
+    width: 49%;
+	padding: 8px;
+}
+#order-div .devs label {
+	font: 300 1.6rem/1.375rem Proxima Nova, sans-serif;
+}
+#order-div .devs div {
+    font: 300 1rem/1.375rem Proxima Nova, sans-serif;
+    color: #555;
+}
+#order-div #other-city {
+    height: 30px;
+}
+#order-div .order-title {
+    font: 300 1.8rem/1.375rem Proxima Nova, sans-serif;
+    color: #333;
+    padding: 20px 0px;
+}
+#order-div .form-submit {
+	margin: 20px 0px;
+	display: block;
+	color: #f82803;
+	font: 700 0.875rem/1 Fregat, sans-serif;
+	text-transform: uppercase;
+	background: #ffd900;
+	border: none;
+	padding: 1rem 1.6rem;
+	position: relative;
+	max-width: 50%;
+	cursor: pointer;
+}
+#order-div .form-submit::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 9px;
+    background: url(./img/more-arr-red.png) 50% 0 no-repeat;
+    margin-top: -2px;
+}
+#order-div .form-submit::after {
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: -8px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(214, 43, 13, 0);
+    border-left-color: #ffd900;
+    border-width: 8px;
+    border-right-width: 0;
+    border-top-width: 1.42rem;
+    border-bottom-width: 1.42rem;
+}
+#order-div .href-change {
+    color: #f94029;
+    font-size: 13px;
+	bottom: 5px;
+	position: relative;
+}
+#order-div .href-change::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+	position: relative;
+    top: 5px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 9px;
+    background: url(./img/more-arr-red.png) 50% 100% no-repeat;
+    margin-top: -2px;
+	margin-left: 10px;
+}
+#order-div .good {
+    font: 300 1.1rem Proxima Nova, sans-serif;
+    margin: 5px 0px;
+}
+#order-div .order-user-info {
+	font: 300 14px Proxima Nova, sans-serif;
+}
+#order-div .order-pays-info {
+	font: 700 14px Proxima Nova, sans-serif;
+}
+input.input_user_type {
+	display:none;
+}
+label.label_for_user_type {
+	padding-top: 8px;
+	margin-right: 50px;
+}
+
+
+.personal_right_section {
+	display: inline-block;
+}
+
+.podelitsya button {
+	color: white;
+	background-color: #33F;
+	height: 30px;
+	float: right;
+	border-radius: 5px;
+}
+.api-user-fields {
+	min-height: 130px;
+}
+.personalLeftMenu {
+	float: left;
+}
+
+
+
+
+.href_old_site {
+	font: 700 0.875rem/1 Fregat, sans-serif;
+	text-transform: uppercase;
+	display: block;
+	text-align: center !important;
+}
+.href_old_site a {
+	color: #d62b0d;
+	text-decoration: underline;
+}
+

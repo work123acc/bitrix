@@ -1,0 +1,18 @@
+.share_procent {	
+    float: right;
+    top: 7px;
+    background-color: #80aed7;
+    color: #fff;
+    font-size: 15px;
+    font-family: "OpenSansBold";
+    width: 50px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    z-index: 1000;
+	
+}
+.price_before {
+	width: 90px;
+	text-align: center;
+}

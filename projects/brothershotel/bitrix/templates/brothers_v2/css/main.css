@@ -1,0 +1,1260 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+p.titleSection {
+	font-family: "HelveticaNeueCyrLight";
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	color: #b7a17b;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.3;
+	font-family: "ProximaNovaRegular", sans-serif;
+	overflow-x: hidden;
+	color: #7c6e5b;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.headerMain {
+	background-color: #e0d9cb;
+	position: relative;
+	width: 100%;
+	z-index: 1000;
+}
+.headerMain .navbarTop > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.headerMain .navbarTop .locationHeader {
+	width: 245px;
+	min-width: 245px;
+}
+.headerMain .navbarTop .locationHeader a {
+	display: inline-block;
+	text-decoration: underline;
+	cursor: pointer;
+	vertical-align: middle;
+	line-height: 1.2;
+	width: calc(100% - 30px);
+	color: #7c6e5b;
+	font-family: "ProximaNovaBold";
+}
+.headerMain .navbarTop .locationHeader img {
+	vertical-align: top;
+	padding-top: 4px;
+}
+
+
+.headerMain .navbarTop .contactHeader {
+	width: 245px;
+	min-width: 245px;
+	text-align: right;
+}
+.headerMain .navbarTop .contactHeader p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "ProximaNovaBold";
+	font-size: 24px;
+}
+.headerMain .navbarTop .contactHeader img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.headerMain .navbarTop .logoHeader {
+	width: 100%;
+	font-family: "MyriadProCondBold";
+	padding: 12px 0px;
+	padding-left: 95px;
+}
+.headerMain .navbarTop .logoHeader > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.headerMain .navbarTop .logoHeader .textLogo {
+	margin-left: 20px;
+	line-height: 0.9;
+}
+.headerMain .navbarTop .logoHeader p {
+	font-size: 50px;
+	color: #63533d;
+	margin: 0;
+	text-transform: uppercase;
+}
+.headerMain .navbarTop .logoHeader span {
+    display: block;
+    font-size: 26px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+
+.menuHeader {
+	left: 0;
+	right: 0;
+	background-color: #b7a17b;
+	z-index: 1000;
+}
+body.index .menuHeader {
+	position: absolute;
+	top: 100%;
+	background-color: rgba(214, 201, 176,0.3);
+}
+.menuHeader ul {
+	display: table;
+	width: 100%;
+	padding: 10px 0;
+}
+.menuHeader ul li {
+	display: table-cell;
+	font-size: 18.5px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	text-align: center;
+}
+.menuHeader ul li:first-child {
+	text-align: left;
+}
+.menuHeader ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.menuHeader ul li a:hover {
+	color: #665640;
+}
+
+.menuHeader ul li a.active {
+	color: #665640;
+}
+
+
+/*headerSection*/
+
+.headerSection {
+	position: relative;
+	z-index: 10;
+}
+.headerSection .sliderHeader > div img {
+	width: 100%;
+}
+.headerSection .slick-prev, .headerSection .slick-next {
+	z-index: 1000;
+}
+.headerSection .slick-prev {
+    left: 10px;
+}
+.headerSection .slick-prev:before {
+    content: '';
+    background-image: url(../img/slider/back.png);
+    width: 25px;
+    height: 43px;
+    background-repeat: no-repeat;
+    display: block;
+}
+.headerSection .slick-next {
+    right: 10px;
+}
+.headerSection .slick-next:before {
+    content: '';
+    background-image: url(../img/slider/back.png);
+    width: 25px;
+    height: 43px;
+    background-repeat: no-repeat;
+    display: block;
+    transform: rotate(180deg);
+}
+
+body.index .headerSection .slick-dots {
+	text-align: right;
+	padding-right: 390px;
+}
+.headerSection .slick-dots {
+	bottom: 20px;
+}
+.headerSection .slick-dots li {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+}
+.headerSection .slick-dots li button {
+	background-color: #817770;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+}
+.headerSection .slick-dots li button:before {
+	display: none;
+}
+
+.headerSection .slick-dots li.slick-active button {
+	background-color: #e0d9cb;
+}
+
+/*новости и акции*/
+
+.sectionNews {
+	padding: 65px 0;
+}
+
+.block_News {
+	margin-top: 35px;
+}
+
+.block_News .item-news {
+	width: 49.5%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	-webkit-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	-o-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	border-radius: 22px;
+	border-color: #fff;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+}
+
+.block_News .item-news img {
+	width: 100%;
+	display: block;
+}
+.block_News .item-news:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 22px;
+	border: 0px solid #fff;
+}
+
+.block_News .item-news a {
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: absolute;
+	font-family: "ProximaNovaLight";
+	-webkit-transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+	-o-transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+	line-height: 1.1;
+	z-index: 10000;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	top: 3px;
+}
+.block_News .item-news:first-child a {
+	padding-top: 40px;
+	padding-left: 19%;
+}
+.block_News .item-news:last-child {
+	float: right;
+}
+.block_News .item-news:last-child a {
+	padding-top: 29%;
+	padding-left: 25px;
+}
+.block_News .item-news:hover a {
+	font-family: "ProximaNovaRegular";
+}
+.block_News .item-news:hover:after {
+	border: 3px solid #fff;
+} 
+.block_News .item-news:hover {
+	box-shadow: 0 0 12px #000;
+	-moz-box-shadow: 0 0 12px #000;
+	-webkit-box-shadow:  0 0 12px #000;
+}
+
+
+/*УСЛУГИ*/
+
+.sectionServices .services-item {
+	display: inline-block;
+	width: 49.5%;
+	vertical-align: top;
+}
+.sectionServices .services-item .blocksServies {
+	margin-top: 35px;
+}
+.sectionServices .services-item .block-services {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 47%;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	-webkit-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	-o-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+.sectionServices .services-item .block-services:after {
+	content: '';
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	bottom: -3px;
+	right: -3px;
+	border: 3px solid transparent;
+	-webkit-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	-o-transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+	border-radius: 25px;
+}
+.sectionServices .services-item .block-services:hover {
+	box-shadow: 0 0 20px #000;
+	-moz-box-shadow: 0 0 20px #000;
+	-webkit-box-shadow:  0 0 20px #000;
+}
+
+.sectionServices .services-item .block-services:hover:after {
+	border: 3px solid #fff;
+}
+.sectionServices .services-item .block-services:nth-child(2n) {
+	margin-left: 15px;
+}
+.sectionServices .services-item .block-services img {
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+}
+.sectionServices .services-item .block-services .overlayTitle {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(224, 217, 203, 0.83);
+	border-radius: 0 0 20px 20px;
+	height: 25%;
+}
+.sectionServices .services-item .block-services .overlayTitle a {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	color: #554631;
+	text-decoration: none;
+	padding-top: 7%;
+	z-index: 10000;
+	position: relative;
+}
+
+.sectionServices .services-item .block-services .overlayTitle a.stroke2 {
+	padding-top: 4%;
+}
+
+/*СЕКЦИЯ СОЦ*/
+
+.socSection {
+	text-align: center;
+	position: relative;
+	padding: 55px 0;
+}
+
+.socSection .titleSoc {
+	font-size: 38px;
+	color: #b7a17b;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.socSection .titleSoc span {
+	font-size: 30px;
+	text-transform: initial;
+}
+
+.socSection .socBtn {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 65px;
+}
+.socSection .socBtn a {
+	margin-right: 15px;
+}
+.socSection .socBtn a:hover {
+	opacity: 0.7;
+}
+
+/*футер*/
+
+footer.mainFooter {
+	background-color: #d6c9b0;
+	padding: 35px 0 55px;
+}
+
+footer.mainFooter .container > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+footer.mainFooter .logoFooter {
+	margin-right: 6%;
+	width: 8%;
+}
+footer.mainFooter .blockFooter {
+	width: 85%;
+}
+
+footer.mainFooter .logoFooter img {
+	width: 100%;
+}
+
+footer.mainFooter .menuFooter li {
+	display: inline-block;
+	margin-right: 5.5%;
+}
+footer.mainFooter .menuFooter li:last-child {
+	margin-right: 0;
+}
+footer.mainFooter .menuFooter li a {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+footer.mainFooter .menuFooter li a:hover {
+	color: #63533d;
+}
+footer.mainFooter .contactsFooter {
+	margin-top: 35px;
+}
+
+footer.mainFooter .contactsFooter > div {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+	margin-right: 30px;
+}
+
+footer.mainFooter .contactsFooter > div img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+footer.mainFooter .contactsFooter > div span {
+	vertical-align: middle;
+	font-family: "ProximaNovaSemibold";
+}
+
+footer.mainFooter .contactsFooter .copyright {
+	float: right;
+	font-size: 16px;
+	font-family: "ProximaNovaSemibold";
+}
+
+.findNumber {
+	position: absolute;
+	right: 10px;
+	bottom: -35px;
+}
+.findNumber form {
+	background-image: -webkit-linear-gradient(bottom, rgb(83,68,48) 0%, rgb(99,80,54) 53%, rgb(83,68,48) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(83,68,48) 0%, rgb(99,80,54) 53%, rgb(83,68,48) 100%);
+	background-image: linear-gradient(to top, rgb(83,68,48) 0%, rgb(99,80,54) 53%, rgb(83,68,48) 100%);
+	border-radius: 20px;
+	border: 4px solid ;
+	padding: 25px 55px 40px;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.findNumber:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url(../img/border.png);
+	background-repeat: no-repeat;
+
+}
+.findNumber form .form_group label {
+	color: #b7a17b;
+	font-size: 15px;
+	font-family: "ProximaNovaSemibold";
+	display: block;
+	margin-bottom: 5px;
+}
+
+.findNumber form .form_group input {
+	border-radius: 8px;
+	background-color: rgb(224, 217, 203);
+	font-size: 17px;
+	color: #7c6e5b;
+	display: block;
+	width: 100%;
+	font-family: "ProximaNovaBold";
+	border: none;
+	padding: 7px 12px;
+	max-width: 250px;
+	outline: none;
+	background-image: url(../img/calendar.png);
+	background-repeat: no-repeat;
+	background-position: 95% 1px;
+	background-size: 29px;
+}
+
+.findNumber form .form_group {
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 100;
+}
+
+.findNumber form .form_group:last-child {
+	margin-bottom: 12px;
+}
+
+.findNumber form .quantity_group {
+	padding: 14px 0;
+	position: relative;
+  z-index: 100;
+}
+
+.findNumber form .quantity_group:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 120%;
+	left: -10%;
+	height: 1px;
+	background-color: #836f59;
+}
+
+.findNumber form .quantity_group > div {
+	display: inline-block;
+	vertical-align: super;
+}
+
+.findNumber form .quantity_group span.label_span {
+	color: #b7a17b;
+	font-size: 15px;
+	font-family: "ProximaNovaSemibold";
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+
+.findNumber form .quantity_group button {
+	background-color: transparent;
+	border-radius: 50%;
+	border: 1px solid #b7a17b;
+	color: #b7a17b;
+	outline: none;
+	cursor: pointer;
+	font-family: "ProximaNovaSemibold";
+	font-size: 26px;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.findNumber form  .betweenBtn {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+}
+
+.findNumber form .quantity_group.nigthNumber span#numberNightValue {
+	color: #b7a17b;
+	font-size: 16px;
+	font-family: "ProximaNovaSemibold";
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.findNumber form .quantity_group.adultNumbers .blockLabel span#numberAdultValue {
+	display: inline-block;
+	color: #b7a17b;
+	font-size: 16px;
+	font-family: "ProximaNovaSemibold";
+	margin-bottom: 1px;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+}
+
+.findNumber form .quantity_group.childNumbers .blockLabel span#numberChildValue {
+    display: inline-block;
+    color: #b7a17b;
+    font-size: 16px;
+    font-family: "ProximaNovaSemibold";
+    margin-bottom: 1px;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+}
+
+.findNumber form .quantity_group .blockLabel {
+	width: 98px;
+}
+.findNumber form .promocodForm {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	position: relative;
+	z-index: 100;
+}
+.findNumber form .promocodForm:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 120%;
+	left: -10%;
+	height: 1px;
+	background-color: #836f59;
+}
+
+.findNumber form .promocodForm input {
+	border: none;
+	background-color: #b7a17b;
+	width: 100%;
+	border-radius: 8px;
+	padding: 12px 12px;
+	outline: none;
+
+}
+
+.findNumber form .blockBtn {
+	padding: 12px 0;
+	position: relative;
+	z-index: 100;
+}
+.findNumber form .blockBtn:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 120%;
+	left: -10%;
+	height: 1px;
+	background-color: #836f59;
+}
+
+.findNumber form .blockBtn button {
+	display: block;
+	margin: auto;
+	background-color: transparent;
+	border: none;
+	color: #e0d9cb;
+	font-size: 28px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.findNumber form .blockBtn .img_Top {
+	position: absolute;
+	top: -30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.findNumber form .blockBtn .img_Button {
+	position: absolute;
+	bottom: -33px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.findNumber .adult-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -2px;
+	opacity: 0.5;
+}
+
+.findNumber .adult-item.active_value {
+	opacity: 1;
+}
+.findNumber .child-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -2px;
+	opacity: 0.5;
+}
+
+.findNumber .child-item.active_value {
+	opacity: 1;
+}
+
+
+.findNumber form .form_group input::-webkit-input-placeholder {color:#7c6e5b;}
+.findNumber form .form_group input::-moz-placeholder          {color:#7c6e5b;}/* Firefox 19+ */
+.findNumber form .form_group input:-moz-placeholder           {color:#7c6e5b;}/* Firefox 18- */
+.findNumber form .form_group input:-ms-input-placeholder      {color:#7c6e5b;} 
+
+
+.findNumber form .promocodForm input::-webkit-input-placeholder {color:#534430;}
+.findNumber form .promocodForm input::-moz-placeholder          {color:#534430;}/* Firefox 19+ */
+.findNumber form .promocodForm input:-moz-placeholder           {color:#534430;}/* Firefox 18- */
+.findNumber form .promocodForm input:-ms-input-placeholder      {color:#534430;}
+
+
+
+.headerMain .navbarTop .logoHeader span.mobileContcat {
+	display: none;
+}
+
+
+.toggle_mnu {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  z-index: 10000000;
+  border: none;
+  right: 0px;
+  background-color: transparent;
+  top: 10px; 
+  display: none;
+  outline: none;
+  cursor: pointer;
+}
+  .toggle_mnu span {
+    display: block; 
+  }
+
+.sandwich {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 200; }
+
+.sw-topper {
+  position: relative;
+  top: 0;
+  width: 28px;
+  height: 2px;
+  background: #605039;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: -webkit-transform 0.5s, top 0.2s;
+          transition: transform 0.5s, top 0.2s;
+  display: block; }
+
+svg path {
+  fill: #e0e0e0; }
+
+.sw-bottom {
+  position: relative;
+  width: 28px;
+  height: 2px;
+  top: 6.6px;
+  background: #605039;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: -webkit-transform 0.5s, top 0.2s;
+          transition: transform 0.5s, top 0.2s;
+  -webkit-transition-delay: 0.2s, 0s;
+          transition-delay: 0.2s, 0s; }
+
+.sw-footer {
+  position: relative;
+  width: 28px;
+  height: 2px;
+  top: 13.5px;
+  background: #605039;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s; }
+
+.sandwich.active .sw-topper {
+  top: 9px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+.sandwich.active .sw-bottom {
+  top: 6px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+.sandwich.active .sw-footer {
+  opacity: 0;
+  top: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+
+.mobileNight,
+.promoMobileP,
+.mobileBlockShare,
+.mobCategory {
+	display: none;
+}
+
+.mobileBlockShare .mobItem {
+	background-color: #ded7cd;
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 15px 30px;
+}
+.mobileBlockShare .mobItem:last-child {
+	margin-bottom: 0;
+}
+.mobileBlockShare .mobItem a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7c6e5b;
+	font-size: 18px;
+}
+
+.mobCategory .itemCategory {
+	position: relative;
+	margin-top: 2px;
+}
+
+.mobCategory .itemCategory .imgBg img {
+	display: block;
+	width: 100%;
+}
+.mobCategory .itemCategory .textCat {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: rgba(255, 255, 255,0.75); 
+}
+.mobCategory .itemCategory .textCat a {
+	color: #605039;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 8%;
+	display: block;
+	text-decoration: none;
+}
+.mobCategory .itemCategory .textCat a span {
+	text-transform: lowercase;
+	font-size: 20px;
+	display: block;
+
+}
+
+.mobFooter {
+	display: none;
+	margin-top: 5px;
+}
+.mobFooter .itemFooter a {
+	color: #7c6e5b;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+}
+.mobFooter .itemFooter a:hover {
+	background-color: rgba(184, 169, 149, 0.49); 
+}
+
+
+.howGetTo {
+	display: none;
+	background-color: #ded7cd;
+	
+}
+.howGetTo a {
+	color: #7c6e5b;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+}
+
+
+/* хлебные крошки */
+
+.crumbs {
+
+}
+
+.crumbs .title {
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.crumbs ul li {
+	display: inline-block;
+}
+
+.crumbs ul li a {
+	text-decoration: none;
+	color: #7c6e5b;
+}
+
+.crumbs ul li:not(:last-child) a:after {
+	content: url(../img/icons/crumbs_arrow.png);
+	margin: 0 4px 0 4px;
+	position: relative;
+	top: 1px;
+}
+
+/*********/
+
+
+/* rooms */
+
+aside.left {
+	display: inline-block;
+	width: 26%;
+}
+
+aside.right {
+	display: inline-block;
+	width: 67%;
+	float: right;
+	background-color: #e0d9cb;
+}
+
+.contentContainer {
+	max-width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.rooms.headerSection .slick-prev,
+.rooms.headerSection .slick-next {
+}
+
+.rooms.headerSection .slick-dots {
+	bottom: 10px;
+	opacity: 0.7;
+}
+
+.rooms.headerSection .sliderHeader img {
+	display: block;
+}
+
+.rooms.headerSection .sliderHeader div {
+	text-align: center;
+}
+
+
+
+.descriptionRooms p.priceRoom {
+	font-size: 24px;
+	color: #63533d;
+	text-align: center;
+}
+
+.descriptionRooms button.orderRoom {
+	background-color: #b7a17b;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px 6px 20px;
+    text-transform: uppercase;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    display: block;
+}
+
+.descriptionRooms .textRoom {
+	padding: 0 30px;
+}
+
+.descriptionRooms .textRoom .columnList {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.descriptionRooms .textRoom .columnList ul {
+	margin-bottom: 20px;
+}
+
+.descriptionRooms .textRoom .columnListBig {
+	width: 60%;
+}
+
+.descriptionRooms .textRoom .columnListSmall {
+	width: 38%;
+}
+
+
+.roomTypes {
+	margin-top: 50px;
+}
+
+.roomTypes h3 {
+	text-align: right;
+	margin: 30px 0;
+	cursor: pointer;
+}
+
+.roomTypes h3.active > span,
+.roomTypes h3:hover > span {
+	color: #7c6e5b;
+	border-bottom: 1px solid #b7a17b;
+}
+
+.roomTypes h3 > span {
+	position: absolute;
+	left: 0;
+	text-transform: uppercase;
+	color: #b7a17b;
+	font-weight: bold;
+}
+
+.roomTypes h3 > div img,
+.roomTypes h3 > div .descr {
+	display: inline-block;
+	position: relative;
+}
+
+.roomTypes h3 .descr span {
+	position: absolute;
+    bottom: -4px;
+    left: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b7a17b;
+}
+
+/* rooms mobile */
+
+.mobRoomTypes {
+	width: 100%;
+	margin-top: 0;
+}
+
+.mobRoomTypes h3:hover {
+	background-color: #ded7cd;
+	transition-duration: 0.2s;
+}
+
+.mobRoomTypes h3:hover > span   {
+	border: none;
+}
+
+.mobRoomTypes h3 > span {
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 5px;
+	font-weight: normal;
+	color: #63533d;
+	transition-duration: 0.1s;
+}
+
+.mobRoomTypes h3 > span.ui-icon {
+	top: 12px;
+}
+
+.mobRoomTypes {
+	display: none;
+}
+
+.mobRoomTypes .ui-accordion-content {
+	overflow-x: hidden;
+}
+
+.mobRoomTypes .descriptionRooms {
+	color: #63533d;
+}
+
+.mobRoomTypes .descriptionRooms button.orderRoom {
+	background-color: #63533d;
+	margin-bottom: 40px;
+}
+
+.mobRoomTypes [aria-expanded="false"] > span.typeName {
+	left: -20px;
+}
+
+.contentContainer .ui-accordion-header-active > span.typeName {
+	color: #7c6e5b;
+	margin-left: 10px;
+}
+
+.contentContainer .mobRoomTypes > h3 {
+	margin: 0;
+}
+
+.contentContainer .mobRoomTypes > div {
+	padding: 0;
+	background-color: #ded7cd;
+}
+
+.roomsMobilePath {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.roomsMobilePath > a {
+	display: inline-block;
+	margin-left: 21px;
+}
+
+.roomsMobilePath > img {
+	position: relative;
+	margin-left: 8px;
+	top: 3px;
+}
+
+/*******/
+
+/* end of rooms */
+
+
+
+/*Bronirovanie*/
+
+.wrapBronList  {
+	padding-top: 100px;
+}
+
+.bronItem {
+	background-color: #e0d9cb;
+	display: inline-block;
+	max-width: 385px;
+	vertical-align: top;
+	height: 380px;
+	width: 33%;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+.bronItem:nrh-child(3n) {
+	margin-right: 0;
+}
+
+.bronItem .titleBron {
+	background-color: #b7a17b;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 0 5px 10px;
+	color: #fff;
+}
+
+.bronItem .wrapImg {
+	max-height: 210px;
+	overflow: hidden;
+}
+
+.bronItem .wrapImg img {
+	display: block;
+	width: 100%;
+}
+
+.bronItem .descriptionBron {
+	padding: 20px 10px 0;
+	color: #63533d;
+	height: 55px;
+	margin-bottom: 5px;
+	box-sizing: content-box;
+}
+
+.bronItem .descriptionBron p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	padding-right: 40px;
+}
+
+.bronItem .orderBron {
+	padding: 0 10px 30px;
+
+}
+
+.bronItem .orderBron a.location {
+	color: #63533d;
+	font-size: 14px;
+	vertical-align: sub;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+
+.bronItem .orderBron a.sendBtn {
+	background-color: #63533d;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	padding: 5px 14px;
+	padding: 5px 15px;
+	float: right;
+	font-size: 14px;
+	margin-right: 10px;
+}

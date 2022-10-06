@@ -1,0 +1,28 @@
+.bx-sls .bx-ui-sls-container{
+    min-height: 34px !important;
+}
+#text_glav p{
+    text-align: justify;
+}
+#text_glav blockquote span{
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+
+
+/** left banners link */
+
+div.left_banner_link {
+	text-align: center;
+	padding-top: 7px;
+}
+div.left_banner_link  a {
+	font-weight: normal; padding-right: 50px; color: #333; font-size: 13px;
+}
+div.left_banner_link p{
+	margin: 0px;
+}
+div.left_banner_link p.mrg_p {
+	margin-top:5px;
+}

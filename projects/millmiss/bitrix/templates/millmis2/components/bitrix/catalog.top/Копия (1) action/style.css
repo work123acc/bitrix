@@ -1,0 +1,9 @@
+.wrap_img{
+    height: 185px;
+    width: 230px;
+    line-height: 166px;
+    overflow: hidden;
+}
+.wrap_description{
+    height: 49px;
+}

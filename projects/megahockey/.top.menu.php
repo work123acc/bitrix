@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"О нас", 
+		"/company/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"Доставка", 
+		"/delivery/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"Гарантии и возврат", 
+		"/guarantee/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"Оплата", 
+		"/payment/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"Акции", 
+		"/company/actions/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	),
+	Array(
+		"Контакты", 
+		"/company/contacts/", 
+		Array(), 
+		Array(), 
+		"!CSite::InDir('/personal/basket/')" 
+	)
+);
+?>

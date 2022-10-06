@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+	"Главная", 
+		"/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Номера", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бронирование", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спорт и туризм", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Галерея", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/#", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

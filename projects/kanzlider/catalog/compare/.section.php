@@ -1,0 +1,6 @@
+<?
+$sSectionName = "compare";
+$arDirProperties = Array(
+
+);
+?>

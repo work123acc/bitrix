@@ -1,0 +1,6 @@
+.checkboxes-hidden, .checkboxes-hidden * {
+	display:none;
+}
+font.errortext {
+	color: yellow !important;
+}
